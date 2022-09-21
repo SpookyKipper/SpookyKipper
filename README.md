@@ -26,5 +26,5 @@ Here are some ideas to get you started:
 <h4 align="center">I am bad at everything</h4>
 <br>
 
-## 🔥 Streak Stats
+<h2 align="center"> 🔥 Streak Stats </h2>
 <p align="center"><img src="https://github-readme-streak-stats.herokuapp.com?user=SpookyKipper&theme=shades-of-purple&ring=DD2727&fire=DD2727" alt="candida18"  /></p>
