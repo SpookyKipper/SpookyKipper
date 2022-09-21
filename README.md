@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 <h1 align="center">Hi , I'm Spooky Kipper <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 <p align="center">
- <!-- <a href="https://github.com/DenverCoder1/readme-typing-svg">--><img src="https://readme-typing-svg.herokuapp.com?font=&duration=3500&pause=1000&color=B262FE&center=true&width=500&lines=Interested+in+JavaScript%2C+PHP;Interested+in+Web+Development">
+ <!-- <a href="https://github.com/DenverCoder1/readme-typing-svg">--><img src="https://readme-typing-svg.herokuapp.com?font=&duration=3500&pause=1000&color=B262FE&center=true&width=500&lines=I'm+Interested+in+JavaScript%2C+PHP;I'm+Interested+in+Web+Development">
 </p>
 <hr/>
 
