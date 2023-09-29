@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 </p>
 <hr/>
 
-<h4 align="center">I am bad at everything</h4>
+<h4 align="center">Just think positively, just be positive.</h4>
 <br>
 <h2 align="center"> 📈 Status </h2>
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=SpookyKipper&hide=prs&theme=synthwave"></p>
