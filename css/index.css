@@ -2616,3 +2616,12 @@ for tabs and large phones
     transform: rotate(360deg);
   }
 }
+
+
+
+/* Custom */
+.portfolio-image img {
+    width: auto!important;
+    display: flex;
+    margin: auto;
+}
