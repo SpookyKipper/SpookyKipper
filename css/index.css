@@ -2625,3 +2625,9 @@ for tabs and large phones
     display: flex;
     margin: auto;
 }
+    /* For screens smaller than 600px */
+@media only screen and (max-width: 405px) {
+    .responsive-image {
+        transform: scale(0.75);
+    }
+}
