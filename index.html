@@ -1,39 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style id="slashnoanimation">.slash.one {animation-name: none !important;} </style>
-<style id="slashnoanimation2">.slash.two {animation-name: none !important;} </style>
+    <style id="slashnoanimation">
+        .slash.one {
+            animation-name: none !important;
+        }
+    </style>
+    <style id="slashnoanimation2">
+        .slash.two {
+            animation-name: none !important;
+        }
+    </style>
 
     <title>Spooky Kipper</title>
-  <!--favicon-img--> 
-   <link rel="icon" type="image/png" href="images/favicon.png">
-   <!--favicon-img-->
-   <!--main css file should not be removed -->
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
     <link rel="stylesheet" href="css/index.css">
     <!--main css file-->
     <script src="js/gsap.min.js"></script>
 </head>
+
 <body>
     <!--contains all the div-->
     <div id="all">
-    <!--mouse  follower-->
+        <!--mouse  follower-->
         <div class="cursor"></div>
-    <!--mouse  follower-->
-    <!--loader-->
+        <!--mouse  follower-->
+        <!--loader-->
         <div id="loader">
-         <div> <span class="color">Spooky</span>&nbsp;Kipper</div><div>
-		Loading <div class="lds-ring color" ><div></div><div></div><div></div><div ></div></div></div>	
+            <div> <span class="color">Spooky</span>&nbsp;Kipper</div>
+            <div>
+                Loading <div class="lds-ring color">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
         </div>
-    <!--loader-end-->
-    <!--link-screen-->
+        <!--loader-end-->
+        <!--link-screen-->
         <div id="breaker">
         </div>
         <div id="breaker-two">
         </div>
-    <!--link-screen-->
+        <!--link-screen-->
         <!--Main-Section-->
         <!--Navigator-fullscreen-->
         <div id="navigation-content">
@@ -45,15 +61,15 @@
                 <span class="close-second"></span>
             </div>
             <div class="navigation-links">
-                <a href="#" data-text="HOME" id="home-link" >HOME</a>
-                <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
-               <!-- <a href="#" data-text="BLOG" id="blog-link" >BLOG</a>-->
-                <a href="#" data-text="PROJECTS" id="portfolio-link" >PROJECTS</a>
+                <a href="#" data-text="HOME" id="home-link">Home</a>
+                <a href="#" data-text="ABOUT" id="about-link">About</a>
+                <a href="#" data-text="AWARDS" id="award-link">Awards and Certifications</a>
+                <a href="#" data-text="PROJECTS" id="portfolio-link">Projects</a>
                 <!--<a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>-->
             </div>
         </div>
         <!--Navigator-Fullscreen END-->
-          <!--Home Page-->
+        <!--Home Page-->
         <!--Menubar-->
         <div id="navigation-bar">
             <img src="images/favicon.png" alt="logo">
@@ -64,131 +80,114 @@
             </div>
         </div>
         <!--Menubar End-->
-          <!--Header-->
+        <!--Header-->
         <div id="header">
             <div id="particles"></div>
-              <!--Social Media Links-->
+            <!--Social Media Links-->
             <div class="social-media-links">
-             <!--   <a href="https://dsc.bio/spookykip" target="_blank"><img src="images/discord.svg" class="social-media" alt="instagram-logo"></a>-->
-                <a href="https://youtube.com/c/SpookyKipper" target="_blank"><img src="images/youtube.svg" class="social-media" alt="facebook-logo"></a>
-            <!--    <a href="#"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>-->
-                <a href="https://twitter.com/SpookyKip" target="_blank"><img src="images/twitter.svg" class="social-media" alt="twitter-logo"></a>
+                <!--   <a href="https://dsc.bio/spookykip" target="_blank"><img src="images/discord.svg" class="social-media" alt="instagram-logo"></a>-->
+                <a href="https://youtube.com/c/SpookyKipper" target="_blank"><img src="images/youtube.svg"
+                        class="social-media" alt="facebook-logo"></a>
+                <!--    <a href="#"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>-->
+                <a href="https://twitter.com/SpookyKip" target="_blank"><img src="images/twitter.svg"
+                        class="social-media" alt="twitter-logo"></a>
 
             </div>
             <!--Social Media Links end-->
             <div class="header-content">
                 <div class="header-content-box">
-                <div class="firstline"><span class="color">Spooky </span>Kipper</div>
-                <div class="secondline">
-                I'm a
-            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Web Developer", " Student", " Roblox Developer" ]'></span>
-            <span class="slash one color">|</span>
-            <br>
-			<div style="padding-top:10px;">
-        <!--    <div class="cv menubar" style="position: relative;display: contents;border-radius: 8px;">
+                    <div class="firstline"><span class="color">Spooky </span>Kipper</div>
+                    <div class="secondline">
+                        I'm a
+                        <span class="txt-rotate color" data-period="1200"
+                            data-rotate='[ " Web Developer", " Student", " Roblox Developer" ]'></span>
+                        <span class="slash one color">|</span>
+                        <br>
+                        <div style="padding-top:10px;">
+                            <!--    <div class="cv menubar" style="position: relative;display: contents;border-radius: 8px;">
                 <a href="#"><button style="border-radius: 8px;">More Info</button></a>
             </div>-->
-<div class="responsive-image" style="width: 395px;height: 80px;overflow: hidden;margin: auto;border: medium solid #B07346;border-radius: 10px;">
-    <img class="" src="https://discord.c99.nl/widget/theme-3/688569752654053460.png" style="object-fit: cover;object-position: center 0px;width: 100%;height: 80px;">
-</div>     <!--       <div style="min-width: 75%;max-width: 396px;min-height:50px;max-height: 80px;background-image: url('https://discord.c99.nl/widget/theme-2/688569752654053460.png');display: block;margin-left: auto;margin-right:auto;border-radius: 10px;border-color: #B07346;border-style: solid;background-position: right;border-width: medium;">
+                            <div class="responsive-image"
+                                style="width: 395px;height: 80px;overflow: hidden;margin: auto;border: medium solid #B07346;border-radius: 10px;">
+                                <img class="" src="https://discord.c99.nl/widget/theme-3/688569752654053460.png"
+                                    style="object-fit: cover;object-position: center 0px;width: 100%;height: 80px;">
+                            </div> <!--       <div style="min-width: 75%;max-width: 396px;min-height:50px;max-height: 80px;background-image: url('https://discord.c99.nl/widget/theme-2/688569752654053460.png');display: block;margin-left: auto;margin-right:auto;border-radius: 10px;border-color: #B07346;border-style: solid;background-position: right;border-width: medium;">
               
             </div>-->
-            
-            <div class="portfolio-text button" style="background: none;position: relative;display: contents;border-radius: 8px;"><button onclick="document.getElementById('menutoggler').click();" style="border-radius:0.5rem;"><span class="index"> More Info</i></span></button></div>
-            
-            </div>
-            
-        </div>
-        
-                  <!--  <div class="contact">
+
+                            <div class="portfolio-text button"
+                                style="background: none;position: relative;display: contents;border-radius: 8px;">
+                                <button onclick="document.getElementById('menutoggler').click();"
+                                    style="border-radius:0.5rem;"><span class="index"> More Info</i></span></button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!--  <div class="contact">
                 <a href="Mailto:#"><img src="images/mail.png" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
-               <!-- <a href="Tel:#"><img src="images/call.png" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
-                   <!-- </div>-->    
-            </div>
+                    <!-- <a href="Tel:#"><img src="images/call.png" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                    <!-- </div>-->
+                </div>
             </div>
             <!--header image-->
             <div class="header-image">
-          <!--  <img src="images/man.jpg" alt="logo">-->
+                <!--  <img src="images/man.jpg" alt="logo">-->
             </div>
             <!--header image end-->
         </div>
-           <!--Header End-->
+        <!--Header End-->
         <!--HomePage End-->
         <!--Main-Section End-->
         <!--about-->
         <div id="about">
-            <div class="color-changer">
-            <div class="color-panel">
-                <img src="images/gear.png" alt="">
-            </div>
-            <div class="color-selector">
-                <div class="heading">Custom Colors</div>
-                <div class="colors">
-                    <ul >
-                    <li>
-                        <a href="#0" class="color-red " title="color-red"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-purple" title="color-purple"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-malt" title="color-malt"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-green" title="color-green"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-blue" title="color-blue"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-orange" title="color-orange"></a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-            </div>
+           
             <!--about content-->
             <div id="about-content">
                 <div class="about-header">
                     About <span class="color">Me</span>
-                    <span class ="header-caption">Hi, I'm <span class="color">Spooky Kipper</span>. Nice you meet you. <br> People usually mention me as <span class="color">Spooky</span>.<!-- I'm interested in 
+                    <span class="header-caption">Hi, I'm <span class="color">Spooky Kipper</span>. Nice you meet you.
+                        <br> People usually mention me as <span class="color">Spooky</span>.<!-- I'm interested in 
                  <u><span class="txt-rotate2" data-period="1200"data-rotate='[ "  Web Development", " JavaScript", " PHP", "Roblox Lua" ]'></span></u>
             <span class="slash two">|</span>
                     -->
 
                 </div>
-                 <!--services start-->
-            <div id="services">
-                
-                  
-            <!--services header-->
+                <!--services start-->
+                <div id="services">
+
+
+                    <!--services header-->
                     <div class="services-heading wow">
-                       My <span class="color">Interest</span> 
+                        My <span class="color">Interest</span>
                     </div>
-            <!--services header end-->
-            <!--services content-->
+                    <!--services header end-->
+                    <!--services content-->
                     <div class="services-content">
-                           <div class="service-one service wow">
-                               <div class="service-img">
-                               <img src="images/coding.png" alt="service-one">
-                               </div>
-                               <div class="service-description">
-                                <h2>Web Development</h2>
-                                <p>Almost everyone surf the internet and browse websites everyday, I want to learn to develop my own websites and systems.</p>
-                               </div>
-                           </div>
-                           <div class="service-two service wow">
-                               <div class="service-img">
-                               <img src="images/controller.svg" alt="service-two">
-                               </div>
-                               <div class="service-description">
-                                <h2>Game Development</h2>
-                                <p>There are countless games in the world, but instead of only playing it, why not making one? You can understand how games work.</p>
-                               </div>
-                           </div>
-                           <div class="service-three service wow">
+                        <div class="service-one service wow">
                             <div class="service-img">
-                               <img src="images/robot.svg" alt="service-three">
+                                <img src="images/coding.png" alt="service-one">
+                            </div>
+                            <div class="service-description">
+                                <h2>Web Development</h2>
+                                <p>Almost everyone surf the internet and browse websites everyday, I want to learn to
+                                    develop my own websites and systems.</p>
+                            </div>
+                        </div>
+                        <div class="service-two service wow">
+                            <div class="service-img">
+                                <img src="images/controller.svg" alt="service-two">
+                            </div>
+                            <div class="service-description">
+                                <h2>Game Development</h2>
+                                <p>There are countless games in the world, but instead of only playing it, why not
+                                    making one? You can understand how games work.</p>
+                            </div>
+                        </div>
+                        <div class="service-three service wow">
+                            <div class="service-img">
+                                <img src="images/robot.svg" alt="service-three">
                             </div>
                             <div class="service-description">
                                 <h2>Bot Development</h2>
@@ -196,9 +195,9 @@
                             </div>
                         </div>
                     </div>
-            </div>
-            <!--services content end-->
-            <!--services end--><!--
+                </div>
+                <!--services content end-->
+                <!--services end--><!--
                 <div class="about-main">
             <div class="about-first-paragraph wow">
             <!--about description--><!--
@@ -217,19 +216,20 @@
             </div>
     
             </div>
-           -->  <div id="skills">
-                <div class="skills-header">
-                     My <span class="color"> Info</span>
-                </div>
-                <div class="contact-content " style="text-align: center;">
-		
-<div class="contact-form">
-	
-                 <div class="form-header">
-                     Little bit about me
-                 </div>
-	<form>
-                   <div class="input-line" style="
+           -->
+                <div id="skills">
+                    <div class="skills-header">
+                        My <span class="color"> Info</span>
+                    </div>
+                    <div class="contact-content " style="text-align: center;">
+
+                        <div class="contact-form">
+
+                            <div class="form-header">
+                                Little bit about me
+                            </div>
+                            <form>
+                                <div class="input-line" style="
     width: 100%;
     height: auto;
     display: flex;
@@ -237,196 +237,129 @@
     align-items: center;
     justify-content: center;
 ">
-		 <label class="input-name">Gender: Not a girl</label>
-		<label class="input-name">Crush on someone? Maybe, maybe not!</label>
+                                    <label class="input-name">Gender: Not a girl</label>
+                                    <label class="input-name">Crush on someone? Maybe, maybe not!</label>
 
-                        <label class="input-name">Favourite Color: Blurple / Lavender</label>
-			<label class="input-name">Favourite Food: Anything edible that is not too bitter or too spicy</label>
-			    <label class="input-name">Favourite anime character: N.o.</label>
-			      <label class="input-name">Favourite singer: Just don't suck :3</label>
-			      <label class="input-name">Favourite game: Roblox, Minecraft, Bus Simulator 21</label>
-                    </div></form>
-                
-            
-             </div>
+                                    <label class="input-name">Favourite Color: Blurple / Lavender</label>
+                                    <label class="input-name">Favourite Food: Anything edible that is not too bitter or
+                                        too spicy</label>
+                                    <label class="input-name">Favourite anime character: N.o.</label>
+                                    <label class="input-name">Favourite singer: Just don't suck :3</label>
+                                    <label class="input-name">Favourite game: Roblox, Minecraft, Bus Simulator
+                                        21</label>
+                                </div>
+                            </form>
 
-			
-			<div class="contact-info" style="background: url(https://spooky.hk/images/favicon.png);background-size: 100%;background-repeat: no-repeat;">
-                <div class="contact-info-header">
-                    Contact Info
-                </div>
-                <div class="contact-info-content">
-                <div class="contect-info-content-line">
-                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
-                    <div class="contact-info-icon-text">
-                        <h6>Name</h6>
-                        <p>Spooky Kipper</p>
-                  </div>
-                </div>
-                <div class="contect-info-content-line">
-                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
-                  <div class="contact-info-icon-text">
-                      <h6>Location</h6>
-                      <p>Hong Kong, China</p>
-                </div>
-              </div>
-              <div class="contect-info-content-line">
-                  <img src="./images/discord.svg" class="icon" alt="discord">
-                  <div class="contact-info-icon-text">
-                      <h6>Discord</h6>
-                      <p>@spookykipper</p>
-                </div>
-              </div>
-              
-              <div class="contect-info-content-line">
-                  <img src="./images/icon-email.png" class="icon" alt="email-icon">
-                  <div class="contact-info-icon-text">
-                      <h6>Email</h6>
-                      <p>me@spooky.hk</p>
-                </div>
-              </div>
-                </div>
-            <!--Contact information end-->
-           </div>
-                    </div>
-                    
-        
-            </div><!--
-            <div id="skills">
-                <div class="skills-header">
-                     My <span class="color"> Skills</span>
-                </div>
-                <div class="skills-content " style="text-align: center;">
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                        HTML
-                    </div>
+
                         </div>
-                    <div class="html-prog wow prog">
-                 <div class="html-progress wow">95%</div>
-                    </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                      CSS
-                    </div>
+                        <style>
+                            .input-name {
+                                width: 100%;
+                            }
+                        </style>
+
+
+                        <div class="contact-info"
+                            style="background: url(https://spooky.hk/images/favicon.png);background-size: 100%;background-repeat: no-repeat;">
+                            <div class="contact-info-header">
+                                Contact Info
+                            </div>
+                            <div class="contact-info-content">
+                                <div class="contect-info-content-line">
+                                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                                    <div class="contact-info-icon-text">
+                                        <h6>Name</h6>
+                                        <p>Spooky Kipper</p>
+                                    </div>
+                                </div>
+                                <div class="contect-info-content-line">
+                                    <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                                    <div class="contact-info-icon-text">
+                                        <h6>Location</h6>
+                                        <p>Hong Kong, China</p>
+                                    </div>
+                                </div>
+                                <div class="contect-info-content-line">
+                                    <img src="./images/discord.svg" class="icon" alt="discord">
+                                    <div class="contact-info-icon-text">
+                                        <h6>Discord</h6>
+                                        <p>@spookykipper</p>
+                                    </div>
+                                </div>
+
+                                <div class="contect-info-content-line">
+                                    <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                                    <div class="contact-info-icon-text">
+                                        <h6>Email</h6>
+                                        <p>me@spooky.hk</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Contact information end-->
                         </div>
-                    <div class="html-prog wow prog">
-                 <div class="css-progress wow">65%</div>
                     </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                        JavaScript
-                    </div>
-                        </div>
-                    <div class="html-prog wow prog">
-                 <div class="js-progress wow">50%</div>
-                    </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                        PHP
-                    </div>
-                        </div>
-                    <div class="html-prog wow prog">
-                 <div class="php-progress wow">15%</div>
-                    </div>
-                    </div>
-                    
-                    <!--div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                        SEO
-                    </div>
-                        </div>
-                    <div class="html-prog wow prog">
-                 <div class="seo-progress wow">10%</div>
-                    </div>
-                    </div>-->
+
+
+
                 </div>
             </div>
-    <!--copyright-section You Can Remove After Downloading-->
+            <!--copyright-section You Can Remove After Downloading-->
             <div class="footer">
-             <div class="footer-text">
-                 Spooky Kipper | spooky.hk
-             </div>
+                <div class="footer-text">
+                    Spooky Kipper | spooky.hk
+                </div>
             </div>
-    <!--copyright-section-->
+            <!--copyright-section-->
         </div>
-        <!--about end-->
-        <!--portfolio-->
-        <div id="portfolio">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
+
+    </div>
+    <!--about end-->
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="portfolio-header"> My <span class="color"> Projects </span>
+            <span class="header-caption"> Some Of My <span class="color"> Works</span></span>
+        </div>
+        <div id="portfolio-content">
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <img src="https://spookhost.xyz/assets/img/favicon.png" alt="portfolio-first">
                 </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul >
-                        <li>
-                            <a href="#0" class="color-red " title="color-red"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-purple" title="color-purple"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-malt" title="color-malt"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-green" title="color-green"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-blue" title="color-blue"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-orange" title="color-orange"></a>
-                        </li>
-                        </ul>
-                    </div>
+                <div class="portfolio-text">
+                    <h2>Spookhost</h2>
+                    <p>Spookhost is a Free Website Hosting software. With a nice Client Area and Control Panel and no
+                        ads.</p>
+                    <div class="button"><a href="https://spookhost.xyz/" target="_blank"><button><span class="index">
+                                    Learn More<i class="gg-arrow-right"></i></span></button></a></div>
                 </div>
+            </div>
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <img src="https://listcraft.top/CSS/ListCraft.png" alt="portfolio-second">
                 </div>
-            <div class="portfolio-header"> My <span class="color"> Projects </span> 
-            <span class ="header-caption"> Some Of My <span class="color"> Works</span></span></div>
-             <div id="portfolio-content">
-                 <div class="portfolio portfolio-first">
-                     <div class="portfolio-image">
-                        <img src="https://spookhost.xyz/assets/img/favicon.png" alt="portfolio-first">
-                     </div>
-                     <div class="portfolio-text">
-                         <h2>Spookhost</h2>
-                         <p>Spookhost is a Free Website Hosting software. With a nice Client Area and Control Panel and no ads.</p>
-                         <div class="button"><a href="https://spookhost.xyz/" target="_blank"><button><span class="index"> Learn More<i class="gg-arrow-right"></i></span></button></a></div>
-                     </div>
-                 </div>
-                 <div class="portfolio portfolio-second">
-                    <div class="portfolio-image">
-                        <img src="https://listcraft.top/CSS/ListCraft.png" alt="portfolio-second">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>ListCraft</h2>
-                        <p>ListCraft is a Free Minecraft Server list allowing server owners to monitor and advertise their servers.
-</p>
-                        <div class="button"><a href="https://listcraft.top/" target="_blank"><button><span class="index"> Learn More<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
+                <div class="portfolio-text">
+                    <h2>ListCraft</h2>
+                    <p>ListCraft is a Free Minecraft Server list allowing server owners to monitor and advertise their
+                        servers.
+                    </p>
+                    <div class="button"><a href="https://listcraft.top/" target="_blank"><button><span class="index">
+                                    Learn More<i class="gg-arrow-right"></i></span></button></a></div>
                 </div>
-             
-                <div class="portfolio portfolio-third">
-                    <div class="portfolio-image">
-                        <img src="https://i.imgur.com/tMA4TTG.png" alt="portfolio-third">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Spookbot</h2>
-                        <p>Spookhost is a unique Discord Bot. It is not aimed to assist server moderation, but with a lot of fun and unique features such as Wordle in Discord, DNS Checker in Discord, Domain/IP/ASN/TLD WHOIS info in Discord, Minecraft Player/Server info, Roblox User info, </p>
-                        <div class="button"><a href="https://spookbot.eu.org/" target="_blank"><button><span class="index"> Learn More<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
+            </div>
+
+            <div class="portfolio portfolio-third">
+                <div class="portfolio-image">
+                    <img src="./images/HKBus.webp" alt="portfolio-third">
                 </div>
-              <!--  <div class="portfolio portfolio-fourth">
+                <div class="portfolio-text">
+                    <h2>HKBus</h2>
+                    <p>HKBus is a Discord Bot that allows you to check Hong Kong Bus Routes and their Estimated Time of
+                        Arrivals.</p>
+                    <div class="button"><a href="https://top.gg/bot/818372729761038406" target="_blank"><button><span
+                                    class="index">
+                                    Learn More<i class="gg-arrow-right"></i></span></button></a></div>
+                </div>
+            </div>
+            <!--  <div class="portfolio portfolio-fourth">
                     <div class=" portfolio-image">
                         <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
                     </div>
@@ -437,26 +370,71 @@
                         <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>-->
-                 </div>
-                  <!--copyright-section You Can Remove After Downloading-->
-            <div class="footer">
-             <div class="footer-text">
-                 Spooky Kipper | spooky.hk
-             </div>
+        </div>
+        <!--copyright-section You Can Remove After Downloading-->
+        <div class="footer">
+            <div class="footer-text">
+                Spooky Kipper | spooky.hk
             </div>
-    <!--copyright-section-->
-             </div>
-        <!--portfolio end-->
-        <!--blog-->
-        <div id="blog">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul >
+        </div>
+        <!--copyright-section-->
+    </div>
+    <!--portfolio end-->
+    <!--award-->
+    <div id="award">
+
+        <div class="award-header"> Awards and Certifications</span>
+            <span class="header-caption"> Some of my <span class="color"> awards and certifications</span>.</span>
+        </div>
+        <style>
+            .awards .img img {
+                width: auto!important;
+                margin: 5px auto;
+                height: 95%;
+                display: block;
+            }
+            .award-text h3 {
+                font-size: 20px;
+            }
+        </style>
+        <div class="award-content">
+            <div class="awards">
+                <a href="https://www.credly.com/badges/41226b5f-5c5f-4558-a8d7-22b924465c86/public_url" target="_blank">
+                    <div class="img">
+                        <img src="images/microsoft-office-specialist-powerpoint-associate-office-2019.png"
+                            alt="Microsoft Office Specialist: PowerPoint Associate (Office 2019) - Badge Image">
+                        <div class="award-date">April 13, 2024</div>
+                    </div>
+                    <div class="award-text">
+                        <h3>Microsoft Office Specialist: PowerPoint Associate (Office 2019)</h3>
+                        <p>
+                            Passed with score of 820/100.
+                            <br>Click for Certification Description<br><br>
+                            Verification & Official PDF Certificate obtainable at <a href="https://verify.certiport.com/" target="_blank" style="text-decoration: underline;">verify.certiport.com</a> with code v43x-DwoP</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <!--copyright-section You Can Remove After Downloading-->
+        <div class="footer">
+            <div class="footer-text">
+                Spooky Kipper | spooky.hk
+            </div>
+        </div>
+        <!--copyright-section-->
+    </div>
+    <!--award end-->
+    <!--contact-->
+    <div id="contact">
+        <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul>
                         <li>
                             <a href="#0" class="color-red " title="color-red"></a>
                         </li>
@@ -475,200 +453,78 @@
                         <li>
                             <a href="#0" class="color-orange" title="color-orange"></a>
                         </li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-        <div class="blog-header"> Blogs</span>
-            <span class ="header-caption"> My Latest <span class="color"> blog posts.</span></span></div>
-            <div class="blog-content">
-                 <div class="blogs">
-                     <a href="#">
-                     <div class="img">
-                        <img src="images/post-one.jpg" alt="blog-one">
-                        <div class="blog-date">8 May,20</div>
-                     </div>
-                     <div class="blog-text">
-                         <h3>Harleys In Hawaai</h3>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias dolore recusandae illum, corrupti quo 
-                             veniam saepe aliquid! Quis voluptates ratione consequuntur vel, perferendis cum provident? Magnam fugiat voluptas
-                              libero.</p>
-                     </div></a>
-                 </div>      
-                 <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/post-two.jpg" alt="blog-two">
-                        <div class="blog-date">16 Jan,20</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Key To Be Productive</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt maiores, 
-                            recusandae cupiditate ducimus a non tempora, architecto obcaecati eaque ipsum assumenda harum dolorum iusto tenetur
-                             eius eligendi dolor magnam sit!</p>
-                    </div></a>
-                </div>      
-                <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/post-three.jpg" alt="blog-three">
-                        <div class="blog-date">30 Nov,19</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Caffeine Addict</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum impedit 
-                            ipsam perspiciatis ratione sapiente quasi optio reprehenderit, labore consequuntur suscipit cum quas.
-                             Officiis dolorem asperiores, ut necessitatibus quas doloremque?</p>
-                    </div></a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/post-four.jpg" alt="blog-four">
-                        <div class="blog-date">6 Jul,19</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Web Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veniam ratione quam vitae,
-                             quibusdam explicabo rem debitis velit ipsa repellat, impedit nulla fuga? Amet corporis praesentium quae.
-                              Sed, quibusdam necessitatibus.</p>
-                    </div></a>
-                </div>  
-                <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/post-five.jpg" alt="blog-five">
-                        <div class="blog-date">1 Jun,19</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Work From Home</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt eum necessitatibus rem 
-                            dignissimos nulla mollitia cumque, provident officiis non vitae? Animi aut doloremque illum, soluta hic minus 
-                            sint explicabo..</p>
-                    </div></a>
-                </div>  
-                <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/post-six.jpg" alt="blog-six">
-                        <div class="blog-date">28 Feb,19</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Business Trip</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora dolorum fuga ratione, unde, 
-                            ex quaerat iste numquam nemo nihil nobis rem sint quia recusandae dignissimos quos ut rerum nam.</p>
-                    </div></a>
-                </div>        
-            </div>
-               <!--copyright-section You Can Remove After Downloading-->
-               <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy Wonkas
-                </div>
-               </div>
-       <!--copyright-section-->
-        </div>
-        <!--blog end-->
-        <!--contact-->
-     <div id="contact">
-        <div class="color-changer">
-            <div class="color-panel">
-                <img src="images/gear.png" alt="">
-            </div>
-            <div class="color-selector">
-                <div class="heading">Custom Colors</div>
-                <div class="colors">
-                    <ul >
-                    <li>
-                        <a href="#0" class="color-red " title="color-red"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-purple" title="color-purple"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-malt" title="color-malt"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-green" title="color-green"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-blue" title="color-blue"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-orange" title="color-orange"></a>
-                    </li>
                     </ul>
                 </div>
             </div>
-            </div>
-         <div class="contact-header">Contact <span class="color"> Me</span>
-        <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
+        </div>
+        <div class="contact-header">Contact <span class="color"> Me</span>
+            <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
+        </div>
         <div class="contact-content">
             <!--Contact form-->
-             <div class="contact-form">
-                 <div class="form-header">
-                     Message Me
-                 </div>
-                 <form id="myForm" action="#">
+            <div class="contact-form">
+                <div class="form-header">
+                    Message Me
+                </div>
+                <form id="myForm" action="#">
                     <div class="input-line">
-                        <input  id="name" type="text" placeholder="Name" class="input-name">
-                        <input id="email" type="email" placeholder="Email"  class="input-name">
+                        <input id="name" type="text" placeholder="Name" class="input-name">
+                        <input id="email" type="email" placeholder="Email" class="input-name">
                     </div>
                     <input type="text" id="subject" placeholder="subject" class="input-subject">
-                    <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
-                    <button type="button" id ="submit" value="send">Submit</button>
-                 </form>
-               
-             </div>
+                    <textarea id="body" class="input-textarea" placeholder="message"></textarea>
+                    <button type="button" id="submit" value="send">Submit</button>
+                </form>
+
+            </div>
             <!--Contact form-->
             <!--Contact information-->
-             <div class="contact-info">
+            <div class="contact-info">
                 <div class="contact-info-header">
                     Contact Info
                 </div>
                 <div class="contact-info-content">
-                <div class="contect-info-content-line">
-                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
-                    <div class="contact-info-icon-text">
-                        <h6>Name</h6>
-                        <p>Arlo Brown</p>
-                  </div>
-                </div>
-                <div class="contect-info-content-line">
-                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
-                  <div class="contact-info-icon-text">
-                      <h6>Location</h6>
-                      <p>New York, USA</p>
-                </div>
-              </div>
-              <div class="contect-info-content-line">
-                  <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
-                  <div class="contact-info-icon-text">
-                      <h6>Call</h6>
-                      <p>+9865376531</p>
-                </div>
-              </div>
-              
-              <div class="contect-info-content-line">
-                  <img src="./images/icon-email.png" class="icon" alt="email-icon">
-                  <div class="contact-info-icon-text">
-                      <h6>Email</h6>
-                      <p>Info@example.com</p>
-                </div>
-              </div>
-                </div>
-            <!--Contact information end-->
-           </div>
-        </div>
-                    <!--copyright-section You Can Remove After Downloading-->
-                    <div class="footer">
-                        <div class="footer-text">
-                            <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy Wonkas
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Name</h6>
+                            <p>Arlo Brown</p>
                         </div>
-                       </div>
-               <!--copyright-section-->
-     </div>
-        <!--contact end-->
+                    </div>
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Location</h6>
+                            <p>New York, USA</p>
+                        </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Call</h6>
+                            <p>+9865376531</p>
+                        </div>
+                    </div>
+
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Email</h6>
+                            <p>Info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Contact information end-->
+            </div>
+        </div>
+        <!--copyright-section You Can Remove After Downloading-->
+        <div class="footer">
+            <div class="footer-text">
+            </div>
+        </div>
+        <!--copyright-section-->
+    </div>
+    <!--contact end-->
     </div>
     <!--all the divisions-->
     <script src="js/jquery.min.js"></script>
@@ -677,8 +533,9 @@
     <script src="js/index.js"></script>
     <!--particles script-->
     <script>
-  particlesJS("particles", {"particles":{"number":{"value":40,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+        particlesJS("particles", { "particles": { "number": { "value": 40, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
     </script>
 
 </body>
+
 </html>
