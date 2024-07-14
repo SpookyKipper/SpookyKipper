@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 <p align="center">
  <!-- <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=&duration=3500&pause=1000&color=B262FE&center=true&width=500&lines=I'm+Interested+in+JavaScript%2C+PHP;I'm+Interested+in+Web+Development">-->
- All of my project commits should be signed with a Verified badge!
+ All of my project commits should be signed with a Verified badge!<br>
  Own-use repos like the ObsidianMD Digital Garden commits may not be signed.
 </p>
 <hr/>
