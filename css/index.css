@@ -3023,11 +3023,3 @@ for tabs and large phones
 }
 
 
-@media only screen and (min-width: 1025px) {
-    .portfolio-image {
-        position: absolute;
-        margin-bottom: 200px;
-        margin-right: 550px;
-        scale: 0.65;
-    }
-}
