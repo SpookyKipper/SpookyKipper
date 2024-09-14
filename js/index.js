@@ -416,3 +416,7 @@ $(function(){
   $('.navigation-close').hover(cursorhover,cursor);
 
 })
+
+// menu.open() function
+const menu = Object;
+menu.open = () => {document.querySelector('#menutoggler').click();}
