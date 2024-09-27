@@ -1,9 +1,11 @@
+'use client'
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Download, ExternalLink, Github, Mail, MapPin, User, Heart, Palette, Pizza, Tv, Music, Gamepad, MessageCircle } from "lucide-react"
 
-export default function PersonalIntro() {
+export function PersonalIntroComponent() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 p-8">
       <div className="max-w-4xl mx-auto space-y-8">
