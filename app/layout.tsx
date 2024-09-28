@@ -28,8 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></Script>
-      <Script src="https://cdn.spooky.hk/mainProfileScripts/darkmode.js"></Script>
+      <Script src="https://cdn.spooky.hk/mainProfileScripts/darkModeFull.js"></Script>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
