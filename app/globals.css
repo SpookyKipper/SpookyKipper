@@ -76,3 +76,17 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+::selection {
+  background-color: #7500ff;
+  color: white;
+}
+
+.darkmode--activated ::selection {
+  background-color: #8aff00!important;
+  color: black;
+}
+
+.darkmode--activated .darkmode-layer {
+  height: 150% !important;
+}
