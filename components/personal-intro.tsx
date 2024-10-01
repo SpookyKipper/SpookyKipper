@@ -279,7 +279,7 @@ export function PersonalIntroComponent() {
             </Card>
           </div>
         </section>
-        <p>&copy; Spooky Kipper • spooky.hk • Explore the old site <a href="https://v1.spooky.hk" target="_blank" style={{textDecoration: "underline"}}>here</a>.</p>
+        <p>&copy; Spooky Kipper • spooky.hk • Explore the old site <a href="https://v1.spooky.hk" target="_blank" style={{textDecoration: "underline"}}>here</a></p>
       </div>
     </div>
   )
