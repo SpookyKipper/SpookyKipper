@@ -90,3 +90,7 @@ body {
 .darkmode--activated .darkmode-layer {
   height: 150% !important;
 }
+
+hr {
+  margin: 6px 0;
+}

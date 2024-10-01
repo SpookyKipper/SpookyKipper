@@ -28,8 +28,8 @@ export function PersonalIntroComponent() {
 
         {/* Introduction */}
         <p className="text-center text-lg">
-          Hiya! I am Spooky Kipper. Nice to meet you.
-          People usually mention me as Spooky online
+          Hiya! I am Spooky Kipper. Nice to meet you.<br/>
+          People usually mention me as Spooky online, Kipper in real life.
         </p>
 
         {/* Interests */}
@@ -37,6 +37,7 @@ export function PersonalIntroComponent() {
           <Badge>Student</Badge>
           <Badge>Roblox Development</Badge>
           <Badge>Web Development</Badge>
+          <Badge>Kubuntu Linux</Badge>
         </div>
 
         {/* Info */}
@@ -47,7 +48,7 @@ export function PersonalIntroComponent() {
           <CardContent className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex items-center">
               <User className="mr-2 h-5 w-5" />
-              <span>Male</span>
+              <span>Gender: Male</span>
             </div>
             <div className="flex items-center">
               <Heart className="mr-2 h-5 w-5" />
@@ -90,15 +91,17 @@ export function PersonalIntroComponent() {
 
         {/* Certificates */}
         <section>
-          <h2 className="text-2xl font-semibold mb-4">Certificates and Awards</h2>
+          <h2 className="text-2xl font-semibold mb-4">Certifications and Awards</h2>
           <div className="space-y-4">
             <Card>
               <CardHeader>
                 <CardTitle>Cisco: Introduction to Cybersecurity</CardTitle>
-                <CardDescription>Sep 2024 • Awarded by Cisco Networking Academy </CardDescription>
+                <CardDescription>Sep 2024 • Issued by Cisco Networking Academy </CardDescription>
               </CardHeader>
               <CardContent>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Completed the Introduction to Cybersecurity course and passed the exam from Cisco Networking Academy.
+                  <hr/>
+                  The holder of this student-level credential has introductory knowledge of cybersecurity, including the global implications of cyber threats on industries, and why cybersecurity is a growing profession.</p>
               </CardContent>
               <CardFooter className="flex flex-wrap gap-2">
                 <a href="https://certs.spooky.hk/Cisco_Introduction_to_Cybersecurity.pdf" target="_blank">
@@ -118,10 +121,10 @@ export function PersonalIntroComponent() {
             <Card>
               <CardHeader>
                 <CardTitle>Microsoft Office Specialist: PowerPoint Associate (Office 2019)</CardTitle>
-                <CardDescription>Apr 2024 • Awarded by Microsoft / Certiport </CardDescription>
+                <CardDescription>Apr 2024 • Silver Award • Issued by Microsoft / Certiport </CardDescription>
               </CardHeader>
               <CardContent>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Passed the MO-300 exam from Microsoft under supervision by Certiport.<hr/>The earner have a fundamental understanding of the PowerPoint environment and demonstrate the correct application of PowerPoint.</p>
               </CardContent>
               <CardFooter className="flex flex-wrap gap-2">
               <a href="https://certs.spooky.hk/MO300.pdf" target="_blank">
@@ -158,7 +161,7 @@ export function PersonalIntroComponent() {
                     alt="Project Logo"
                     className="w-full h-full object-cover"
                     height="64"
-                    src="/placeholder.svg?height=64&width=64"
+                    src="https://cdn.spooky.hk/projectIcons/island.svg"
                     style={{
                       aspectRatio: "64/64",
                       objectFit: "cover",
@@ -166,20 +169,24 @@ export function PersonalIntroComponent() {
                     width="64"
                   />
                 </div>
-                <CardTitle>Tab Islands for CHrome</CardTitle>
+                <CardTitle>Tab Islands for Chrome</CardTitle>
               </CardHeader>
               <CardContent>
-                <p>An intelligent chatbot powered by GPT-3, capable of engaging in human-like conversations.</p>
+                <p>A recreation of the the Automatic Tab Islands creation feature from the Opera One browser.</p>
               </CardContent>
               <CardFooter className="flex flex-wrap gap-2">
-                <Button variant="outline" size="sm">
-                  <Github className="mr-2 h-4 w-4" />
-                  GitHub
-                </Button>
+                <a href="https://chromewebstore.google.com/detail/tab-islands-for-chrome/bnkppmpbnnedcfoncmkbekokhmfkhoin" target="_blank">
                 <Button size="sm">
                   <ExternalLink className="mr-2 h-4 w-4" />
-                  Demo
+                  Chrome Web Store
                 </Button>
+                </a>
+                <a href="https://github.com/SpookyKipper/TabIslandsForChrome/" target="_blank">
+                <Button variant="outline" size="sm">
+                  <Github className="mr-2 h-4 w-4" />
+                  Source Code (GitHub)
+                </Button>
+                </a>
               </CardFooter>
             </Card>
             <Card>
@@ -189,7 +196,7 @@ export function PersonalIntroComponent() {
                     alt="Project Logo"
                     className="w-full h-full object-cover"
                     height="64"
-                    src="/placeholder.svg?height=64&width=64"
+                    src="https://cdn.spooky.hk/projectIcons/HKBus.webp"
                     style={{
                       aspectRatio: "64/64",
                       objectFit: "cover",
@@ -197,24 +204,82 @@ export function PersonalIntroComponent() {
                     width="64"
                   />
                 </div>
-                <CardTitle>Data Visualization Dashboard</CardTitle>
+                <CardTitle>HKBus</CardTitle>
               </CardHeader>
               <CardContent>
-                <p>Interactive dashboard for visualizing complex datasets using D3.js and React.</p>
+                <p>A Discord Bot that allows you to check Hong Kong Bus Routes and their Estimated Time of
+                Arrivals.</p>
               </CardContent>
               <CardFooter className="flex flex-wrap gap-2">
-                <Button variant="outline" size="sm">
-                  <Github className="mr-2 h-4 w-4" />
-                  GitHub
-                </Button>
+              <a href="https://top.gg/bot/818372729761038406" target="_blank">
                 <Button size="sm">
                   <ExternalLink className="mr-2 h-4 w-4" />
-                  Demo
+                  Learn More (Top.gg)
                 </Button>
+                </a>
+              </CardFooter>
+            </Card>
+            <Card>
+              <CardHeader>
+                <div className="w-16 h-16 mb-4 bg-gray-200 rounded-full overflow-hidden">
+                  <img
+                    alt="Project Logo"
+                    className="w-full h-full object-cover"
+                    height="64"
+                    src="https://cdn.spooky.hk/projectIcons/spookhost.png"
+                    style={{
+                      aspectRatio: "64/64",
+                      objectFit: "cover",
+                    }}
+                    width="64"
+                  />
+                </div>
+                <CardTitle>Spookhost</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p>An ad-free Free Website Hosting service. With easy-to-use Client Portal Control Panel.</p>
+              </CardContent>
+              <CardFooter className="flex flex-wrap gap-2">
+              <a href="https://spookhost.xyz/" target="_blank">
+                <Button size="sm">
+                  <ExternalLink className="mr-2 h-4 w-4" />
+                  Learn More
+                </Button>
+                </a>
+              </CardFooter>
+            </Card>
+            <Card>
+              <CardHeader>
+                <div className="w-16 h-16 mb-4 bg-gray-200 rounded-full overflow-hidden">
+                  <img
+                    alt="Project Logo"
+                    className="w-full h-full object-cover"
+                    height="64"
+                    src="https://cdn.spooky.hk/projectIcons/ListCraft.png"
+                    style={{
+                      aspectRatio: "64/64",
+                      objectFit: "cover",
+                    }}
+                    width="64"
+                  />
+                </div>
+                <CardTitle>ListCraft</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p>A Free Minecraft Server list allowing server owners to monitor and advertise their servers.</p>
+              </CardContent>
+              <CardFooter className="flex flex-wrap gap-2">
+              <a href="https://listcraft.top/" target="_blank">
+                <Button size="sm">
+                  <ExternalLink className="mr-2 h-4 w-4" />
+                  Learn More
+                </Button>
+                </a>
               </CardFooter>
             </Card>
           </div>
         </section>
+        <p>&copy; Spooky Kipper • spooky.hk • Explore the old site <a href="https://v1.spooky.hk" target="_blank" style={{textDecoration: "underline"}}>here</a>.</p>
       </div>
     </div>
   )
