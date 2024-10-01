@@ -28,13 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Script src="https://cdn.spooky.hk/mainProfileScripts/darkModeFull.js"></Script>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
 
-       
+        <Script src="https://cdn.spooky.hk/mainProfileScripts/darkModeFull.js"></Script>
       </body>
     </html>
   );

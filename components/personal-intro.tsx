@@ -166,7 +166,7 @@ export function PersonalIntroComponent() {
                     width="64"
                   />
                 </div>
-                <CardTitle>AI Chat Bot</CardTitle>
+                <CardTitle>Tab Islands for CHrome</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>An intelligent chatbot powered by GPT-3, capable of engaging in human-like conversations.</p>
