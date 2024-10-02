@@ -102,3 +102,7 @@ body.darkmode--activated > * ::selection {
 hr {
   margin: 6px 0;
 }
+
+div#language-list > div:nth-child(1) {
+  display: none;
+}
