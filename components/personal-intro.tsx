@@ -93,7 +93,7 @@ export function PersonalIntroComponent() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Certifications and Awards</h2>
           <div className="space-y-4">
-            <Card>
+            <Card className={"cert-card ciscoCyberSec"}>
               <CardHeader>
                 <CardTitle>Cisco: Introduction to Cybersecurity</CardTitle>
                 <CardDescription>Sep 2024 • Issued by Cisco Networking Academy </CardDescription>
@@ -118,7 +118,7 @@ export function PersonalIntroComponent() {
                 </a>
               </CardFooter>
             </Card>
-            <Card>
+            <Card className={"cert-card msMO300"}>
               <CardHeader>
                 <CardTitle>Microsoft Office Specialist: PowerPoint Associate (Office 2019)</CardTitle>
                 <CardDescription>Apr 2024 • Silver Award • Issued by Microsoft / Certiport </CardDescription>
@@ -279,7 +279,7 @@ export function PersonalIntroComponent() {
             </Card>
           </div>
         </section>
-        <p>&copy; Spooky Kipper • spooky.hk • Explore the old site <a href="https://v1.spooky.hk" target="_blank" style={{textDecoration: "underline"}}>here</a></p>
+        <p style={{marginTop: "12.5px"}}>&copy; Spooky Kipper • spooky.hk • Explore the old site <a href="https://v1.spooky.hk" target="_blank" style={{textDecoration: "underline"}}>here</a></p><hr style={{borderColor: "darkgray", marginTop: "12.5px"}}/>
       </div>
     </div>
   )

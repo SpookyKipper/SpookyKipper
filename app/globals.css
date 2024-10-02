@@ -40,6 +40,7 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -72,17 +73,25 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
 
 
-div.inline-flex, button, img, div.bg-card > div > p {
-  -webkit-user-select: none; /* Safari */        
--moz-user-select: none; /* Firefox */
--ms-user-select: none; /* IE10+/Edge */
-user-select: none; /* Standard */
+div.inline-flex,
+button,
+img,
+div.bg-card>div>p {
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
 }
 
 ::selection {
@@ -90,8 +99,8 @@ user-select: none; /* Standard */
   color: white;
 }
 
-body.darkmode--activated > * ::selection {
-  background-color: #8aff00!important;
+body.darkmode--activated>* ::selection {
+  background-color: #8aff00 !important;
   color: black;
 }
 
@@ -103,6 +112,46 @@ hr {
   margin: 6px 0;
 }
 
-div#language-list > div:nth-child(1) {
+div#language-list>div:nth-child(1) {
   display: none;
+}
+
+.darkmode-toggle {
+  z-index: 9999999;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  .cert-card {
+    position: relative;
+  }
+
+  .cert-card::before {
+    content: "";
+    /* Add empty content for the pseudo-element */
+    position: absolute;
+    /* Make the pseudo-element absolute for positioning */
+    top: 0;
+    /* Position to the top */
+    right: 0;
+    /* Position to the right */
+    /* Adjust width, height, and margin as needed */
+    width: 75px;
+    height: 75px;
+    margin: 11px;
+    background-size: cover;
+    /* Ensure image covers the element */
+    border-radius: calc(0.5rem - 11px);
+  }
+
+  .cert-card.ciscoCyberSec::before {
+    background-image: url("https://cdn.spooky.hk/certIcons/introduction-to-cybersecurity.png");
+  }
+
+  @media only screen and (min-width: 865px) {
+    .cert-card.msMO300::before {
+      background-image: url("https://cdn.spooky.hk/certIcons/microsoft-office-specialist-powerpoint-associate-office-2019.png");
+    }
+  }
 }
