@@ -82,7 +82,7 @@ body {
   color: white;
 }
 
-.darkmode--activated ::selection {
+.darkmode--activated:not(img) ::selection {
   background-color: #8aff00!important;
   color: black;
 }
