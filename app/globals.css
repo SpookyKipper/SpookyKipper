@@ -77,12 +77,20 @@ body {
   }
 }
 
+
+div.inline-flex, button, img, div.bg-card > div > p {
+  -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+}
+
 ::selection {
   background-color: #7500ff;
   color: white;
 }
 
-.darkmode--activated:not(img) ::selection {
+body.darkmode--activated > * ::selection {
   background-color: #8aff00!important;
   color: black;
 }

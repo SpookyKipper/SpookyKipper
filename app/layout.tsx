@@ -33,7 +33,7 @@ export default function RootLayout({
       >
         {children}
 
-        <div className={"gtranslate_wrapper"}></div>
+<style>dfd</style>
         <Script src="https://cdn.spooky.hk/mainProfileScripts/darkModeFull.js?ver=1" strategy="afterInteractive"></Script>
         {/*<Script src="https://cdn.spooky.hk/mainProfileScripts/translateConfig.js?ver=1" strategy="afterInteractive"></Script>
         <Script src="https://cdn.spooky.hk/mainProfileScripts/gtranslateFloat.js?ver=1" strategy="afterInteractive"></Script>*/}
