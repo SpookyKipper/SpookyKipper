@@ -33,7 +33,7 @@ export default function RootLayout({
       >
         {children}
 
-        <Script src="https://cdn.spooky.hk/mainProfileScripts/darkModeFull.js" strategy="lazyOnload"></Script>
+        <Script src="https://cdn.spooky.hk/mainProfileScripts/darkModeFull.js?ver=1" strategy="afterInteractive"></Script>
       </body>
     </html>
   );
