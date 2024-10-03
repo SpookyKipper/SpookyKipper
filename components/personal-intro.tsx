@@ -93,6 +93,31 @@ export function PersonalIntroComponent() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Certifications and Awards</h2>
           <div className="space-y-4">
+          <Card className={"cert-card ciscoPcHardwareBasics"}>
+              <CardHeader>
+                <CardTitle>Cisco: Computer Hardware Basics</CardTitle>
+                <CardDescription>Oct 2024 • Issued by Cisco Networking Academy </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Completed the Computer Hardware Basics course and passed the exam from Cisco Networking Academy.
+                  <hr/>
+                  The earner of this badge successfully completed the Computer Hardware Basics course and achieved this student level credential.</p>
+              </CardContent>
+              <CardFooter className="flex flex-wrap gap-2">
+                <a href="https://certs.spooky.hk/Cisco_Computer_Hardware_Basics.pdf" target="_blank">
+                  <Button size="sm">
+                    <Download className="mr-2 h-4 w-4" />
+                    PDF Certificate
+                  </Button>
+                </a>
+                <a href="https://www.credly.com/badges/1c51b0e9-451a-4ce2-861d-29fe04f8295e/public_url" target="_blank">
+                  <Button variant="outline" size="sm">
+                    <ExternalLink className="mr-2 h-4 w-4" />
+                    Verify (Credly)
+                  </Button>
+                </a>
+              </CardFooter>
+            </Card>
             <Card className={"cert-card ciscoCyberSec"}>
               <CardHeader>
                 <CardTitle>Cisco: Introduction to Cybersecurity</CardTitle>
