@@ -101,7 +101,7 @@ export function PersonalIntroComponent() {
               <CardContent>
                 <p>Completed the Computer Hardware Basics course and passed the exam from Cisco Networking Academy.
                   <hr/>
-                  The earner of this badge successfully completed the Computer Hardware Basics course and achieved this student level credential.</p>
+                  The earner has fundamentals knowledge of computers and mobile devices, how they work, as well as the basic concepts and skills needed to install components to build, repair, upgrade personal computers and and basic troubleshooting tools and techniques.</p>
               </CardContent>
               <CardFooter className="flex flex-wrap gap-2">
                 <a href="https://certs.spooky.hk/Cisco_Computer_Hardware_Basics.pdf" target="_blank">
