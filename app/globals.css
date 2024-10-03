@@ -159,6 +159,10 @@ div#language-list>div:nth-child(1) {
     /* Ensure image covers the element */
     border-radius: calc(0.5rem - 11px);
   }
+  
+  .cert-card.ciscoPcHardwareBasics::before {
+    background-image: url("https://cdn.spooky.hk/certIcons/computer-hardware-basics.png");
+  }
 
   .cert-card.ciscoCyberSec::before {
     background-image: url("https://cdn.spooky.hk/certIcons/introduction-to-cybersecurity.png");
