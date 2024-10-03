@@ -137,7 +137,7 @@ div#language-list>div:nth-child(1) {
 
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 865px) {
   .cert-card {
     position: relative;
   }
@@ -168,10 +168,8 @@ div#language-list>div:nth-child(1) {
     background-image: url("https://cdn.spooky.hk/certIcons/introduction-to-cybersecurity.png");
   }
 
-  @media only screen and (min-width: 865px) {
-    .cert-card.msMO300::before {
-      background-image: url("https://cdn.spooky.hk/certIcons/microsoft-office-specialist-powerpoint-associate-office-2019.png");
-    }
+  .cert-card.msMO300::before {
+    background-image: url("https://cdn.spooky.hk/certIcons/microsoft-office-specialist-powerpoint-associate-office-2019.png");
   }
 }
 
