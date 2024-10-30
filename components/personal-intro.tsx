@@ -60,7 +60,7 @@ export function PersonalIntroComponent() {
             </div>
             <div className="flex items-center">
               <Pizza className="mr-2 h-5 w-5" />
-              <span>Favorite Food: Cup Noodle</span>
+              <span>Favorite Food: Chocolate</span>
             </div>
             <div className="flex items-center">
               <Tv className="mr-2 h-5 w-5" />
