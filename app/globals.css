@@ -171,5 +171,11 @@ div#language-list>div:nth-child(1) {
   .cert-card.msMO300::before {
     background-image: url("https://cdn.spooky.hk/certIcons/microsoft-office-specialist-powerpoint-associate-office-2019.png");
   }
+
+  .cert-card.lionRockAvi::before {
+    background-image: url("https://cdn.spooky.hk/certIcons/LionRockAviation.png");
+    border-radius: 10px
+  }
+
 }
 
