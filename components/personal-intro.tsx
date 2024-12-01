@@ -52,7 +52,7 @@ export function PersonalIntroComponent() {
             </div>
             <div className="flex items-center">
               <Heart className="mr-2 h-5 w-5" />
-              <span>Personality: INTP-A</span>
+              <span>Personality: ISTP Virtuoso</span>
             </div>
             <div className="flex items-center">
               <Palette className="mr-2 h-5 w-5" />
